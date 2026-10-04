@@ -1,0 +1,21 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::            (v4.1.0-RC1)
+
+2026-05-17T15:56:28.879+09:00  INFO 31441 --- [sampleapp] [           main] c.e.sampleapp.SampleappApplication       : Starting SampleappApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 31441 (/opt/sampleapp/current/sampleapp-0.0.1-SNAPSHOT.jar started by nagao in /home/nagao/sampleapp)
+2026-05-17T15:56:28.882+09:00  INFO 31441 --- [sampleapp] [           main] c.e.sampleapp.SampleappApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-05-17T15:56:29.651+09:00  INFO 31441 --- [sampleapp] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-17T15:56:29.665+09:00  INFO 31441 --- [sampleapp] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-17T15:56:29.666+09:00  INFO 31441 --- [sampleapp] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-17T15:56:29.690+09:00  INFO 31441 --- [sampleapp] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 741 ms
+2026-05-17T15:56:30.110+09:00  INFO 31441 --- [sampleapp] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-17T15:56:30.134+09:00  INFO 31441 --- [sampleapp] [           main] c.e.sampleapp.SampleappApplication       : Started SampleappApplication in 1.749 seconds (process running for 2.374)
+2026-05-17T16:00:25.356+09:00  INFO 31441 --- [sampleapp] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-17T16:00:25.370+09:00  INFO 31441 --- [sampleapp] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+Error: Unable to access jarfile app.jar
